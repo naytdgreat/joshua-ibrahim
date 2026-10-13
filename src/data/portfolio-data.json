@@ -1,0 +1,432 @@
+{
+  "profile": {
+    "name": "Joshua Ibrahim",
+    "shortName": "Joshua",
+    "title": "Full Stack Software Developer & Systems Engineer",
+    "location": "Abuja, Nigeria",
+    "email": "nayt.dgreat@gmail.com",
+    "phone": "+234 704 861 4884",
+    "linkedin": "https://linkedin.com/in/joshua-ibrahim",
+    "github": "https://github.com/naytdgreat",
+    "status": "Available for new projects & roles",
+    "openToWork": true,
+    "summary": "Experienced Software Developer specializing in modern web development with expertise in React.js, PHP, Golang, and WordPress (REST API integrations, custom plugins, and themes). Skilled in building high-performance, scalable applications and optimizing backend systems. Strong background in full-cycle development—from architecture and design to deployment and maintenance. Passionate about clean code, efficient workflows, and leveraging the right tools to deliver impactful solutions.",
+    "yearsExperience": "5+",
+    "projectsCompleted": "18+",
+    "clientSatisfaction": "100%",
+    "headshotUrl": "/images/joshua-headshot.jpg",
+    "portraitUrl": "/images/joshua-portrait.jpg"
+  },
+  "education": {
+    "institution": "Federal University of Technology Minna",
+    "degree": "B.Eng in Computer Engineering",
+    "period": "Dec 2015 – Nov 2019",
+    "coursework": [
+      "Data Structures & Algorithms",
+      "Operating Systems",
+      "Computer Networks",
+      "Compilers & Language Design",
+      "Computer Architecture",
+      "Parallel & Distributed Computing",
+      "Embedded Systems",
+      "Digital Logic Design",
+      "Control Systems",
+      "Cybersecurity",
+      "Machine Learning",
+      "IoT (Internet of Things)"
+    ]
+  },
+  "skills": {
+    "languages": [
+      {
+        "name": "JavaScript",
+        "level": "Expert"
+      },
+      {
+        "name": "TypeScript",
+        "level": "Expert"
+      },
+      {
+        "name": "Golang",
+        "level": "Advanced"
+      },
+      {
+        "name": "PHP",
+        "level": "Advanced"
+      },
+      {
+        "name": "SQL",
+        "level": "Advanced"
+      }
+    ],
+    "frontend": [
+      {
+        "name": "React.js",
+        "level": "Expert"
+      },
+      {
+        "name": "Next.js (App Router)",
+        "level": "Expert"
+      },
+      {
+        "name": "React Native (Expo)",
+        "level": "Advanced"
+      },
+      {
+        "name": "Tailwind CSS",
+        "level": "Expert"
+      },
+      {
+        "name": "shadcn/ui",
+        "level": "Expert"
+      },
+      {
+        "name": "Redux Toolkit",
+        "level": "Advanced"
+      },
+      {
+        "name": "TanStack React Query",
+        "level": "Advanced"
+      },
+      {
+        "name": "Recharts",
+        "level": "Advanced"
+      }
+    ],
+    "backend": [
+      {
+        "name": "Go Fiber (v2)",
+        "level": "Advanced"
+      },
+      {
+        "name": "GIN Framework",
+        "level": "Advanced"
+      },
+      {
+        "name": "PostgreSQL (pgx v5)",
+        "level": "Advanced"
+      },
+      {
+        "name": "MySQL",
+        "level": "Advanced"
+      },
+      {
+        "name": "Supabase",
+        "level": "Advanced"
+      },
+      {
+        "name": "Redis (go-redis/v9)",
+        "level": "Advanced"
+      },
+      {
+        "name": "Prisma ORM",
+        "level": "Advanced"
+      },
+      {
+        "name": "GORM",
+        "level": "Advanced"
+      },
+      {
+        "name": "WordPress REST API",
+        "level": "Expert"
+      }
+    ],
+    "devopsAndTools": [
+      {
+        "name": "Docker",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Kubernetes",
+        "level": "Intermediate"
+      },
+      {
+        "name": "Git & GitHub Actions",
+        "level": "Advanced"
+      },
+      {
+        "name": "JWT / OAuth / 2FA",
+        "level": "Advanced"
+      },
+      {
+        "name": "Swagger / OpenAPI",
+        "level": "Advanced"
+      },
+      {
+        "name": "Vercel",
+        "level": "Advanced"
+      },
+      {
+        "name": "CPanel / Plesk",
+        "level": "Advanced"
+      },
+      {
+        "name": "Google Cloud Platform",
+        "level": "Intermediate"
+      }
+    ]
+  },
+  "experiences": [
+    {
+      "id": "exp-1",
+      "role": "Software Engineer",
+      "company": "Garki Hospital",
+      "location": "Abuja, NG",
+      "period": "April 2024 – Present",
+      "badge": "Current Role",
+      "highlights": [
+        "Designed and implemented a ticketing system to streamline IT support requests and improve issue resolution efficiency.",
+        "Built a digital solution to manage patient queues, reducing wait times and improving operational workflow.",
+        "Designing interfaces and developing the frontend for hospital management software, while integrating APIs and optimizing user workflows.",
+        "Assisted in configuring, maintaining, and optimizing the hospital's network infrastructure for reliability and security.",
+        "Provided technical troubleshooting, hardware/software maintenance, and user assistance for hospital staff."
+      ]
+    },
+    {
+      "id": "exp-2",
+      "role": "Chief Technical Head",
+      "company": "COLLETT",
+      "location": "Abuja, NG",
+      "period": "Dec 2022 – April 2024",
+      "badge": "Leadership",
+      "highlights": [
+        "Spearheaded development of the company website (COLLETT Foundation) and client project (PGF website).",
+        "Managed complete IT infrastructure including systems, networks, and technical operations.",
+        "Led all technology projects from conception to deployment.",
+        "Conducted professional training programs in: Web Development, Digital Marketing and Computer Networking.",
+        "Oversaw cross-functional technology initiatives and team collaboration."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "proj-hmis",
+      "title": "HMIS – Health Management Information System",
+      "category": "Enterprise & Healthcare",
+      "shortDescription": "Modern hospital operating platform with patient queue management, electronic medical workflows, and resilient microservices.",
+      "longDescription": "A mission-critical enterprise health management system combining high-throughput Go backend services with an accessible, high-performance Next.js 16 frontend. Solves complex patient flow, queue bottlenecks, appointment routing, and secure audit logging.",
+      "techStack": [
+        "Next.js 16",
+        "React 19",
+        "TypeScript",
+        "Tailwind CSS v4",
+        "Go (Fiber v2)",
+        "PostgreSQL",
+        "Redis",
+        "JWT / 2FA",
+        "TanStack Query",
+        "shadcn/ui"
+      ],
+      "highlights": [
+        "Built frontend with Next.js 16 & React 19 in TypeScript using Tailwind CSS, shadcn/ui, and Base UI.",
+        "Engineered Go Fiber backend with PostgreSQL (pgx v5) and schema migrations.",
+        "Implemented Redis caching, 2FA/TOTP authentication, and transactional email pipelines.",
+        "Integrated interactive analytics dashboards with Recharts and dark/light mode."
+      ],
+      "liveUrl": "",
+      "githubUrl": "https://github.com/naytdgreat/hedge",
+      "featured": true,
+      "tag": "Featured System"
+    },
+    {
+      "id": "proj-helpdesk",
+      "title": "Helpdesk Enterprise Asset & SLA Tracker",
+      "category": "Cross-Platform & Mobile",
+      "shortDescription": "Web & mobile enterprise platform for hardware inventory, offline field audits, and automated support ticket lifecycle.",
+      "longDescription": "Cross-platform enterprise solution for hardware inventory tracking, maintenance logging, and support request management built with Next.js 15, React Native Expo, and Supabase. Features offline-first SQLite sync and biometric security.",
+      "techStack": [
+        "Next.js 15",
+        "React Native (Expo)",
+        "TypeScript",
+        "Supabase",
+        "SQLite",
+        "Tailwind CSS",
+        "Recharts",
+        "Lucide"
+      ],
+      "highlights": [
+        "Engineered offline-first mobile sync architecture using Expo SQLite for zero-connectivity field audits.",
+        "Biometric authentication (Fingerprint/FaceID) for secure hardware data access.",
+        "Role-Based Access Control (RBAC) hierarchy for Super Admins, Field Agents, and Property Managers.",
+        "Automated barcode scanning/generation and interactive SLA analytics."
+      ],
+      "liveUrl": "",
+      "githubUrl": "https://github.com/naytdgreat/ghahelpdesk",
+      "featured": true,
+      "tag": "Offline-First Mobile"
+    },
+    {
+      "id": "proj-tickets-spring",
+      "title": "Ticket Spring Event & Ticketing Platform",
+      "category": "Fintech & Events",
+      "shortDescription": "High-performance event management system featuring dynamic PDF ticket generation, QR validation, and Flutterwave payments.",
+      "longDescription": "Complete event registration and ticketing powerhouse. Handles automated ticket rendering with dynamic barcodes/QR codes, split payment payouts, event voting engines, and instant multi-channel ticket delivery via Resend.",
+      "techStack": [
+        "Next.js 15",
+        "TypeScript",
+        "Prisma ORM",
+        "PostgreSQL",
+        "Flutterwave API",
+        "PDFKit",
+        "Resend",
+        "Tailwind CSS"
+      ],
+      "highlights": [
+        "Dynamic PDF ticket generation via PDFKit with encrypted QR codes for gate check-ins.",
+        "End-to-end payment processing with Flutterwave API and automated commission payouts.",
+        "Custom voting module with automated organizer balance withdrawals.",
+        "Secure RBAC authentication with Next-Auth and PostgreSQL."
+      ],
+      "liveUrl": "",
+      "githubUrl": "https://github.com/naytdgreat/ticketspring",
+      "featured": true,
+      "tag": "Fintech"
+    },
+    {
+      "id": "proj-driplynk",
+      "title": "DripLynk SaaS E-Commerce Platform",
+      "category": "SaaS & E-Commerce",
+      "shortDescription": "Multi-tenant e-commerce marketplace with virtual try-on engine, seller portals, and automated CI/CD.",
+      "longDescription": "Spearheaded front-end development for a scalable SaaS fashion platform. Built interactive consumer, admin, and merchant portals, integrated virtual try-on APIs, and configured GitHub Actions CI/CD to Vercel.",
+      "techStack": [
+        "Next.js",
+        "React",
+        "Figma",
+        "REST APIs",
+        "GitHub Actions",
+        "Vercel",
+        "Tailwind CSS"
+      ],
+      "highlights": [
+        "Translated high-fidelity Figma designs into pixel-perfect modular React components.",
+        "Engineered interactive UI for virtual try-on clothing and accessories.",
+        "Automated continuous integration and deployment pipelines using GitHub Actions to Vercel.",
+        "Seamless RESTful API integration for checkout, cart, and authentication."
+      ],
+      "liveUrl": "https://driplynk.vercel.app",
+      "githubUrl": "https://github.com/naytdgreat/driplynk",
+      "featured": true,
+      "tag": "Live SaaS"
+    },
+    {
+      "id": "proj-brilliantwave",
+      "title": "Brilliantwave Online Publishing",
+      "category": "Media & News",
+      "shortDescription": "Global news and lifestyle platform engineered for cross-continental high-traffic performance.",
+      "longDescription": "High-availability multi-category publication delivering investigative reporting and multimedia stories to readers across the UK and Nigeria.",
+      "techStack": [
+        "PHP",
+        "WordPress REST API",
+        "JavaScript",
+        "jQuery",
+        "SQL"
+      ],
+      "highlights": [
+        "High-performance caching and responsive editorial layouts.",
+        "Integrated custom WordPress REST API for dynamic article syndication."
+      ],
+      "liveUrl": "https://brilliantwaveonline.com",
+      "githubUrl": "",
+      "featured": false,
+      "tag": "Media"
+    },
+    {
+      "id": "proj-thebujdaily",
+      "title": "TheBujDaily Regional Magazine & Ticketing",
+      "category": "Media & News",
+      "shortDescription": "City culture publication featuring interactive music charts, event ticketing, and local personality spotlights.",
+      "longDescription": "Custom media and community platform featuring local event ticketing, interactive music top charts, and profile directory.",
+      "techStack": [
+        "PHP",
+        "WordPress REST API",
+        "JavaScript",
+        "jQuery",
+        "SQL"
+      ],
+      "highlights": [
+        "Integrated ticket booking engine directly within editorial lifestyle content.",
+        "Interactive music countdown leaderboard with audio snippets."
+      ],
+      "liveUrl": "https://thebujdaily.ng",
+      "githubUrl": "",
+      "featured": false,
+      "tag": "Media"
+    }
+  ],
+  "services": [
+    {
+      "id": "srv-fullstack",
+      "title": "Full-Stack Web Development",
+      "description": "Architecting resilient, lightning-fast web applications from database schema to interactive frontend using Next.js, React, Go, and PHP.",
+      "icon": "Layers",
+      "features": [
+        "Next.js App Router & React 19",
+        "Go Fiber / REST Microservices",
+        "PostgreSQL & Redis Caching",
+        "Robust Auth & Security (JWT, 2FA)"
+      ]
+    },
+    {
+      "id": "srv-mobile",
+      "title": "Cross-Platform Mobile Apps",
+      "description": "Engineering offline-first mobile apps for iOS and Android with React Native (Expo), SQLite local synchronization, and device biometrics.",
+      "icon": "Smartphone",
+      "features": [
+        "Offline-First Sync Engine",
+        "Expo & SQLite Local Storage",
+        "Biometric Authentication",
+        "Hardware Barcode/QR Scanning"
+      ]
+    },
+    {
+      "id": "srv-enterprise",
+      "title": "Enterprise Systems & APIs",
+      "description": "Building mission-critical business systems, hospital workflows, payment gateways (Flutterwave), and role-based access control engines.",
+      "icon": "Server",
+      "features": [
+        "Complex RBAC Permission Systems",
+        "Payment & Ticket Infrastructure",
+        "Queue & Workflow Optimization",
+        "Audit Logging & SLA Dashboards"
+      ]
+    },
+    {
+      "id": "srv-wordpress",
+      "title": "Custom WordPress & Headless CMS",
+      "description": "Custom plugins, theme engineering, and headless WordPress REST API integrations designed for security and extreme traffic spikes.",
+      "icon": "Code2",
+      "features": [
+        "Custom Theme & Plugin Development",
+        "Headless REST API Architecture",
+        "Database & Query Optimization",
+        "CPanel, Plesk & Cloud Hosting"
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "test-1",
+      "quote": "Joshua transformed our patient queue and support workflow at Garki Hospital. His ability to build robust, practical software under pressure is second to none.",
+      "author": "Dr. A. Bello",
+      "role": "Medical Operations Lead",
+      "company": "Garki Hospital",
+      "rating": 5
+    },
+    {
+      "id": "test-2",
+      "quote": "A truly versatile engineer who bridges technical systems leadership with high-grade front-end and back-end execution. Delivered our platforms ahead of schedule.",
+      "author": "Emmanuel K.",
+      "role": "Director",
+      "company": "COLLETT Foundation",
+      "rating": 5
+    },
+    {
+      "id": "test-3",
+      "quote": "Joshua's work on our e-commerce platform and the virtual try-on feature was exceptional. Clean architecture, pixel-perfect UI, and zero fluff.",
+      "author": "S. Adebayo",
+      "role": "Product Lead",
+      "company": "DripLynk",
+      "rating": 5
+    }
+  ]
+}
