@@ -405,26 +405,26 @@
   "testimonials": [
     {
       "id": "test-1",
-      "quote": "Joshua transformed our patient queue and support workflow at Garki Hospital. His ability to build robust, practical software under pressure is second to none.",
-      "author": "Dr. A. Bello",
-      "role": "Medical Operations Lead",
-      "company": "Garki Hospital",
+      "quote": "Joshua has been instrumental in the development of our HMIS and helped build our helpdesk and booking applications. His attention to details and clean code is second to none",
+      "author": "Mr. Vincent Nwankwor",
+      "role": "HOD ICT",
+      "company": "Garki Hospital Abuja",
       "rating": 5
     },
     {
       "id": "test-2",
-      "quote": "A truly versatile engineer who bridges technical systems leadership with high-grade front-end and back-end execution. Delivered our platforms ahead of schedule.",
-      "author": "Emmanuel K.",
-      "role": "Director",
-      "company": "COLLETT Foundation",
-      "rating": 5
+      "quote": "I've had the pleasure of working with Joshua on several projects, and I've always been impressed with his technical skills and professionalism. He's a quick learner, a team player, and always goes the extra mile to deliver exceptional results.",
+      "author": "Victor Velmo",
+      "role": "Founder",
+      "company": "The Buj Daily",
+      "rating": 4
     },
     {
       "id": "test-3",
-      "quote": "Joshua's work on our e-commerce platform and the virtual try-on feature was exceptional. Clean architecture, pixel-perfect UI, and zero fluff.",
-      "author": "S. Adebayo",
-      "role": "Product Lead",
-      "company": "DripLynk",
+      "quote": "Joshua is a highly skilled and dedicated developer who consistently delivers exceptional results. His attention to details and clean code is second to none",
+      "author": "Itieobong Usoroh",
+      "role": "Co-Founder BrilliantWave",
+      "company": "BrilliantWave",
       "rating": 5
     }
   ]

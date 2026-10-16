@@ -18,7 +18,7 @@ export default function Footer({ profile }: FooterProps) {
     <footer className="border-t border-zinc-200 dark:border-zinc-900 bg-white dark:bg-zinc-950 py-12 transition-colors">
       <div className="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
         <div>
-          <div className="flex items-center gap-2 font-bold text-lg text-zinc-900 dark:text-white mb-1">
+          <div className="flex items-center font-bold text-lg text-zinc-900 dark:text-white mb-1">
             <span>joshua</span>
             <span className="text-[#FF6B2B]">.ibrahim</span>
           </div>
