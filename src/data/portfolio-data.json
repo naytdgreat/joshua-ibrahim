@@ -48,7 +48,7 @@
       },
       {
         "name": "Golang",
-        "level": "Advanced"
+        "level": "Expert"
       },
       {
         "name": "PHP",
@@ -56,7 +56,7 @@
       },
       {
         "name": "SQL",
-        "level": "Advanced"
+        "level": "Expert"
       }
     ],
     "frontend": [
@@ -70,7 +70,7 @@
       },
       {
         "name": "React Native (Expo)",
-        "level": "Advanced"
+        "level": "Expert"
       },
       {
         "name": "Tailwind CSS",
@@ -96,11 +96,11 @@
     "backend": [
       {
         "name": "Go Fiber (v2)",
-        "level": "Advanced"
+        "level": "Expert"
       },
       {
         "name": "GIN Framework",
-        "level": "Advanced"
+        "level": "Expert"
       },
       {
         "name": "PostgreSQL (pgx v5)",
@@ -124,7 +124,7 @@
       },
       {
         "name": "GORM",
-        "level": "Advanced"
+        "level": "Expert"
       },
       {
         "name": "WordPress REST API",
@@ -357,49 +357,48 @@
     {
       "id": "srv-fullstack",
       "title": "Full-Stack Web Development",
-      "description": "Architecting resilient, lightning-fast web applications from database schema to interactive frontend using Next.js, React, Go, and PHP.",
+      "description": "Custom web applications built end to end, from polished front-end interfaces to scalable APIs and databases that power your business online.",
       "icon": "Layers",
       "features": [
-        "Next.js App Router & React 19",
-        "Go Fiber / REST Microservices",
-        "PostgreSQL & Redis Caching",
-        "Robust Auth & Security (JWT, 2FA)"
+        "Responsive, accessible user interfaces",
+        "Scalable API and backend development",
+        "Database design and optimization",
+        "Third-party integrations and DevOps support"
       ]
     },
     {
       "id": "srv-mobile",
       "title": "Cross-Platform Mobile Apps",
-      "description": "Engineering offline-first mobile apps for iOS and Android with React Native (Expo), SQLite local synchronization, and device biometrics.",
+      "description": "Fast, reliable iOS and Android apps built from a single codebase, designed to work seamlessly even without an internet connection.",
       "icon": "Smartphone",
       "features": [
-        "Offline-First Sync Engine",
-        "Expo & SQLite Local Storage",
-        "Biometric Authentication",
-        "Hardware Barcode/QR Scanning"
+        "iOS and Android development",
+        "Native module and device feature integration",
+        "Testing, app store deployment, and maintenance"
       ]
     },
     {
       "id": "srv-enterprise",
       "title": "Enterprise Systems & APIs",
-      "description": "Building mission-critical business systems, hospital workflows, payment gateways (Flutterwave), and role-based access control engines.",
+      "description": "Secure, mission-critical software that connects your operations, automates workflows, and scales as your organization grows.",
       "icon": "Server",
       "features": [
-        "Complex RBAC Permission Systems",
-        "Payment & Ticket Infrastructure",
-        "Queue & Workflow Optimization",
-        "Audit Logging & SLA Dashboards"
+        "Custom enterprise software development",
+        "System integration and data migration",
+        "Security, authentication, and compliance",
+        "Scalable architecture, cloud deployment, and maintenance"
       ]
     },
     {
       "id": "srv-wordpress",
-      "title": "Custom WordPress & Headless CMS",
-      "description": "Custom plugins, theme engineering, and headless WordPress REST API integrations designed for security and extreme traffic spikes.",
-      "icon": "Code2",
+      "title": "IT services",
+      "description": "Dependable network, server, and infrastructure support that keeps your systems secure, connected, and running without interruption.",
+      "icon": "Network",
       "features": [
-        "Custom Theme & Plugin Development",
-        "Headless REST API Architecture",
-        "Database & Query Optimization",
-        "CPanel, Plesk & Cloud Hosting"
+        "Network setup and management",
+        "Server configuration and administration",
+        "cPanel, Plesk, and cloud hosting",
+        "IT equipment procurement"
       ]
     }
   ],
