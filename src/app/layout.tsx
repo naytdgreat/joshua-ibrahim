@@ -9,14 +9,37 @@ const jakartaSans = Plus_Jakarta_Sans({
   display: "swap",
 });
 
+const getBaseUrl = (): string => {
+  if (process.env.NEXT_PUBLIC_SITE_URL) {
+    return process.env.NEXT_PUBLIC_SITE_URL.startsWith("http")
+      ? process.env.NEXT_PUBLIC_SITE_URL
+      : `https://${process.env.NEXT_PUBLIC_SITE_URL}`;
+  }
+  if (process.env.VERCEL_PROJECT_PRODUCTION_URL) {
+    return `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`;
+  }
+  if (process.env.VERCEL_URL) {
+    return `https://${process.env.VERCEL_URL}`;
+  }
+  return "https://joshua-ibrahim.vercel.app";
+};
+
+const siteDescription =
+  "Full Stack Software Developer specializing in Next.js, React, Golang, and PHP. I architect scalable backend systems, resilient microservices, and high-performance user interfaces.";
+const siteTitle = "Joshua Ibrahim — Full Stack Software Developer & Systems Engineer";
+
 export const metadata: Metadata = {
-  title: "Joshua Ibrahim — Full Stack Software Developer & Systems Engineer",
-  description:
-    "Portfolio of Joshua Ibrahim — Experienced Software Developer specializing in Next.js, React, Golang, PHP, and modern web architectures. Based in Abuja, Nigeria.",
+  metadataBase: new URL(getBaseUrl()),
+  title: {
+    default: siteTitle,
+    template: "%s | Joshua Ibrahim",
+  },
+  description: siteDescription,
   keywords: [
     "Joshua Ibrahim",
     "Software Developer",
     "Full Stack Engineer",
+    "Systems Engineer",
     "Next.js",
     "React",
     "Golang",
@@ -25,14 +48,33 @@ export const metadata: Metadata = {
     "Abuja Nigeria",
   ],
   authors: [{ name: "Joshua Ibrahim" }],
+  creator: "Joshua Ibrahim",
   openGraph: {
-    title: "Joshua Ibrahim — Full Stack Software Developer",
-    description:
-      "Experienced Software Developer building scalable, high-performance web systems and applications.",
+    title: siteTitle,
+    description: siteDescription,
+    url: "/",
+    siteName: "Joshua Ibrahim",
+    images: [
+      {
+        url: "/images/joshua-portrait.jpg",
+        width: 768,
+        height: 1024,
+        alt: "Joshua Ibrahim — Full Stack Software Developer",
+        type: "image/jpeg",
+      },
+    ],
+    locale: "en_US",
     type: "website",
-    url: "https://joshua-ibrahim.dev",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: siteTitle,
+    description: siteDescription,
+    images: ["/images/joshua-portrait.jpg"],
+    creator: "@naytdgreat",
   },
 };
+
 
 export default function RootLayout({
   children,
